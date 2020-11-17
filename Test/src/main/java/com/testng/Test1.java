@@ -12,6 +12,7 @@ public class Test1 {
 
     @Test
     public void testCase() {
+        System.out.printf("Thread Id : %s%n",Thread.currentThread().getId());
         System.out.println("这是测试1");
     }
     @BeforeMethod
@@ -24,6 +25,7 @@ public class Test1 {
     }
     @Test
     public void testCase2() {
+        System.out.printf("Thread Id : %s%n",Thread.currentThread().getId());
         System.out.println("这是测试2");
     }
     @BeforeClass
