@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Test" />
         <module name="Test1" />
+        <module name="Test3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autoTest" target="1.5" />
       <module name="Test" target="1.5" />
       <module name="Test1" target="6" />
+      <module name="Test3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
